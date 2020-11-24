@@ -1,92 +1,57 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+   box-sizing: border-box;
+   font-family: 'Fjalla One', Impact, Arial, sans-serif;
 }
 
-body {
-    background-color: gray;
-    background-repeat: no-repeat;
+#body {
+    background-image: url("https://media3.giphy.com/media/KfMm0pL0cwTiVEKEqW/200_d.gif");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+form {
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQy-We_Pb7Pe51DuBaTTDmBN4w-fmAodtLQg&usqp=CAU");
     background-size: cover;
+    background-repeat: no-repeat;
+   padding: 80px;
+   width: 50%;
+   margin: 100px auto;
+   text-align: center;
 }
 
-input[type=number] {
-    width: 150px;
-    height: 30px;
-    background: #fff;
-    color: #000;
-    font-size: 1.5em;
-    text-align: center;
-    border: 1px solid #4d2600;
-    outline: none;
-    border-radius: 5px;
+#tempCalc label {
+   font-size: 30px;
+   position: relative;
+  
 }
 
-#temp-box {
-    position: absolute;
-   left: 50px;
-   top: 300px;
-    height: 160px;
-    width: 650px;
-    background: red;
-    border-radius: 20px;
+#temp {
+   border: none;
+   padding: 10px;
+   height: 40px;
+   width: 100px;
+   font-size: 20px;
+   margin-top: 20px;
 }
 
-#temp-box img {
-    position: absolute;
-    height: 250px;
-    width: 150px;
-    top: 50px;
-    left: 80px;
-    
+#temp_diff {
+   height: 40px;
+   border: none;
+   margin-top: 20px;
+   font-size: 15px;
+   vertical-align: top;
 }
 
-#celsius {
-    position: relative;
-    width: 150px;
-    height: 40px;
-    left: 85px;
-    top: -60px;
-    
+[type="submit"] {
+   height: 35px;
+   margin: 20px;
+   width: 100px;
+   font-size: 15px;
+   border: none;
+   background-color: black;
+   color: white;
 }
 
-#fahrenheit {
-    position: relative;
-    width: 150px;
-    height: 40px;
-    left: 280px;
-    top: -100px;
+#resultContainer {
+   font-size: 35px;
 }
-
-input {
-    width: 500px;
-    height: 55px;
-    border-radius: 5px 5px 0px 0px;
-    margin: auto;
-    background-color: #aeb3ad;
-    position: relative;
-    top: 140px;
-    left: 110px;
-}
-h1 {
-    font-family: helvetica, sans-serif;
-    text-align: center;
-    font-size: 18px; 
-    position: relative;
-    top: 50px; 
-}
-
-button {
-    position: relative;
-    left: -180px; 
-    top: 350px; 
-    background-color: red;
-}
-
-
-
-
-
-
-
-

@@ -1,24 +1,32 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
 
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Temperature Converter</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    
-    <body>
-        <h1>Temperature Converter</h1>
-        <input type="text"></input>
-        <div id="temp-box">
-            <div id="celsius">
-                <input type="number" placeholder="C">
-            </div>
-            <div id="fahrenheit">
-                <input type="number" placeholder="F">
-            </div>
-        </div>
-        <button class="reset"> RESET </button>
-        <script src="script.js"></script>
-    </body>
+ 
+  <title>Temp Converter</title>
+</head>
+<body id="body">
+  <form id="tempCalc" onsubmit="calculateTemp(); return false">
+    <label for="temp">Please enter the temperature you'd like to convert.</label> <br>
+    <input name="temp" id="temp" type="number"> 
+    <select name="temp_diff" id="temp_diff">
+       <option value="1">°Celsius</option>
+       <option value="2">°Fahrenheit</option>
+    </select> <br>
+    <input name="temp" type="submit"> <br>
+    <span id="resultContainer"></span>
+
+ </form>
+ <audio id="flame" src="audio/flame.mp3"></audio>
+    <script src="app.js" async defer></script>
+ </div>
+ 
+</body>
 </html>
+
+
+
+
